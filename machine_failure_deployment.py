@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load Model
-model = joblib.load("machine_failure_prediction.pkl")
+model = joblib.load("machine_failure_prediction_model.pkl")
 
 st.title("Machine Failure Prediction System")
 
